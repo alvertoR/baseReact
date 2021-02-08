@@ -1,0 +1,25 @@
+:root{
+  --Font:'Lato', sans-serif;
+  --primary-color: #D2FAF8;
+  --color-font: #000000;
+}
+
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: var(--Font);
+}
+
+input {
+  font-family: var(--Font);
+}
+
+

@@ -1,0 +1,30 @@
+.landing-title{
+    margin-top: 32px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: normal;
+    color: var(--color-font);
+}
+
+/*Tablet*/
+@media(min-width: 768px){
+
+    .landing{
+        max-width: 900px;
+        margin:0 auto;
+    }
+
+    .landing-title {
+        font-size: 5.6rem;
+    }
+
+}
+
+/*Desktop*/
+
+@media(min-width: 1240px){
+    .landing{
+        max-width: 1240px;
+        margin:0 auto;
+    }
+}

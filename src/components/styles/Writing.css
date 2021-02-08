@@ -1,0 +1,52 @@
+.written-image {
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+
+.written-image--image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.written-title{ 
+    width: 95%;
+    margin:0 auto;
+    margin-top: 16px;
+    font-size: 3.2rem;
+    font-style: italic;
+    font-weight: 500;
+    color: var(--color-font);
+}
+
+.written-text {
+    width: 95%;
+    margin:0 auto;
+    margin-top: 16px;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--color-font);
+}
+
+/*Tablet*/
+@media(min-width: 768px){
+    .written-image {
+        height: 300px;
+    }
+    
+    .written-title{
+        max-width: 1024px;
+        margin:0 auto;
+        margin-top: 32px;
+        font-size: 4.5rem;
+    }
+    
+    .written-text {
+        max-width: 1024px;
+        margin-top: 32px;
+        font-size: 2rem;
+        line-height: 2.9rem;
+    }
+}

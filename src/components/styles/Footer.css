@@ -1,0 +1,17 @@
+.down{
+    margin-top: 24px;
+    padding-bottom: 16px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--color-font);
+}
+
+.down-normal{
+    position: absolute;
+    width: 100%;
+    bottom: 16px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+}
