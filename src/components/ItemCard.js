@@ -9,19 +9,21 @@ class ItemCard extends Component{
         const preText = this.props.data.text.substr(0, 108);
         return(
             <div className="card">
-                <div className="card-image">
-                    <img className="card-image--img" src={images[this.props.data.image]} alt=""/>
-                </div>
-                <h2 className="card-title">
-                    {this.props.data.title}
-                </h2>
-                <p className="card-texts">
-                    {preText}...
-                    <br/>
-                    <Link to={`/written/${this.props.data._id}/write`}>
-                        <span className="card-texts__more">Leer más</span>
-                    </Link>
-                </p>
+                <Link to={`/written/${this.props.data._id}/write`}>
+                    <div className="card-image">
+                        <img className="card-image--img" src={images[this.props.data.image]} alt=""/>
+                    </div>
+                    <h2 className="card-title">
+                        {this.props.data.title}
+                    </h2>
+                    <p className="card-texts">
+                        {preText}...
+                        <br/>
+                        <Link to={`/written/${this.props.data._id}/write`}>
+                            <span className="card-texts__more">Leer más</span>
+                        </Link>
+                    </p>
+                </Link>
             </div>
         )
     }

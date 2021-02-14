@@ -48,8 +48,9 @@ function CardList(props){
                 </div>
             </div>
             <div className="galery-writtens">
+                {filteredWritings.length ? 
                 <ul className="container-writtens">
-                    {filteredWritings.map((item, index, array) => {
+                    {filteredWritings.map((item) => {
                         return(
                             <li key={item._id}>
                                 <ItemCard 
@@ -58,7 +59,11 @@ function CardList(props){
                             </li>
                         )
                     })}
-                </ul>
+                </ul> :
+                <div className="prueba">
+                    <p>Nada mor :c</p>
+                </div>
+                }
             </div>
         </div>
         
