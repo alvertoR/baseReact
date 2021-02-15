@@ -25,6 +25,7 @@
     width: 95%;
     margin:0 auto;
     margin-top: 16px;
+    white-space: pre-wrap;
     font-size: 1.6rem;
     font-weight: 300;
     color: var(--color-font);
